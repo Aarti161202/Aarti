@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jayawantrao Sawant Polytechnic</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .ui-content {
+            padding: 15px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 150px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #0078D7; /* Example primary color */
+        }
+        .course-list {
+            list-style: none;
+            padding: 0;
+        }
+        .course-list li {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+    </style>
+</head>
+<body>
+
+<div data-role="page" id="home">
+    <div data-role="header">
+        <h1>JSP</h1>
+    </div>
+
+    <div data-role="content">
+        <div class="logo">
+            <img src="download.jpeg" alt="JSP Logo">  </div>
+
+        <h2 class="section-title">Welcome to Jayawantrao Sawant Polytechnic</h2>
+        <p>Survey No. 58, Indrayani Nagar, Handewadi Road, Hadapsar, Satav Nagar, Hadapsar, Pune, Maharashtra 411028
+            Approved By AICTE and Affiliated To MSBTE Mumbai
+            All Branches Accredited By NBA | Institute Code : D6425</p>
+
+        <h3 class="section-title">Our Courses</h3>
+        <ul class="course-list">
+            <li>Diploma in Computer Engineering</li>
+            <li>Diploma in Mechanical Engineering</li>
+            <li>Diploma in Civil Engineering</li>
+            <li>Diploma in Electronics and Telecommunication Engineering</li>
+            <li>Diploma in Electrical Engineering</li>
+        </ul>
+
+        <a href="#about" data-role="button" data-icon="info">About Us</a>
+        <a href="#contact" data-role="button" data-icon="phone">Contact Us</a>
+    </div>
+
+    <div data-role="footer">
+        <h4>© 2024 Jayawantrao Sawant Polytechnic</h4>
+    </div>
+</div>
+
+<div data-role="page" id="about">
+    <div data-role="header">
+        <a href="#home" data-icon="arrow-l">Home</a>
+        <h1>About Us</h1>
+    </div>
+
+    <div data-role="content">
+        <p>Jayawantrao Sawant Polytechnic is committed to providing students with the knowledge and skills necessary to succeed in their chosen fields. We strive to create a learning environment that encourages innovation, critical thinking, and professional development.</p>
+        <p>Our experienced faculty and state-of-the-art facilities ensure that students receive a high-quality education that prepares them for the challenges of the modern world.</p>
+
+        <h3 class="section-title">Our Mission</h3>
+        <p>To deliver quality technical education and empower students to become skilled professionals.</p>
+
+        <h3 class="section-title">Our Vision</h3>
+        <p>To be a leading polytechnic institute recognized for excellence in technical education and innovation.</p>
+
+    </div>
+
+    <div data-role="footer">
+        <h4>© 2024 Jayawantrao Sawant Polytechnic</h4>
+    </div>
+</div>
+
+<div data-role="page" id="contact">
+    <div data-role="header">
+        <a href="#home" data-icon="arrow-l">Home</a>
+        <h1>Contact Us</h1>
+    </div>
+
+    <div data-role="content">
+        <p><strong>Address:</strong> Your Address Here</p>
+        <p><strong>Phone:</strong> +91-Your Number</p>
+        <p><strong>Email:</strong> info@yourdomain.com</p>
+
+        <h3 class="section-title">Enquiry Form</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message"></textarea>
+
+            <button type="submit" class="ui-btn ui-btn-b">Submit</button>
+        </form>
+    </div>
+
+    <div data-role="footer">
+        <h4>© 2024 Jayawantrao Sawant Polytechnic</h4>
+    </div>
+</div>
+
+</body>
+</html>
